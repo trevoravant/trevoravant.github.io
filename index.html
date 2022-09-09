@@ -4,21 +4,41 @@
 
 <style>
 
-a {
+body {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 18px;
+    margin: 60px auto;
+	margin-top: 3%;
+	margin-bottom: 5%;
+    width: 70%;
+}
+
+h1 {
+    font-size: 37px;
+    color: black;
+}
+
+h2 {
+	margin-top: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    color: black;
+}
+
+.title {
+	color: black;
+    font-weight: 700;
 	text-decoration: none;
 }
 
-a:link {
-  color: blue;
+.link {
+    color: mediumorchid;
+    font-weight: 700;
+	text-decoration: none;
 }
 
-a:visited {
-  color: blue;
-}
-	
-body {
-    margin: 60px auto;
-    width: 70%;
+.link:hover {
+    color: magenta;
 }
 
 </style>
@@ -31,31 +51,28 @@ Trevor Avant
 --------------------------------------------------------------------------------
 -->
 <body bgcolor=#fbfbfb>
-<h1>
-<font face="Helvetica">Trevor Avant</font>
-</h1>
-<!--
-<font face="Verdana">
--->
-<font size="3", face="Arial">
+<h1>Trevor Avant</h1>
+<!--<font size="3", face="Arial">-->
 <p>
 I received my PhD in Aeronautics & Astronautics from the University of Washington,
 and my BS in Mechanical Engineering from the University of Vermont.
 My research has involved the areas of pose estimation, deep learning, Lipschitz analysis, computer vision, and unscented filtering.
 <p>
-<a href="mailto:trevoravant@gmail.com" style="color:mediumorchid">[email]</a>
-<a href="https://github.com/trevoravant" style="color:mediumorchid">[github]</a>
-<a href="https://gitlab.com/trevoravant" style="color:mediumorchid">[gitlab]</a>
-<a href="https://scholar.google.com/citations?user=RYOJmM0AAAAJ" style="color:mediumorchid">[google scholar]</a>
+<a class="link" href="mailto:trevoravant@gmail.com">email</a>
+/
+<a class="link" href="https://github.com/trevoravant">github</a>
+/
+<a class="link" href="https://gitlab.com/trevoravant">gitlab</a>
+/
+<a class="link" href="https://scholar.google.com/citations?user=RYOJmM0AAAAJ">google scholar</a>
 </p>
 <!--
 --------------------------------------------------------------------------------
 -->
 <hr>
-<font size="5"> <b>papers:</b>
-<font size="3">
+<h2>papers:</h2>
 <p>
-<font color=blue>Code for computing bounds on the local Lipschitz constants of ReLU networks</font>
+<a class="title">Code for computing bounds on the local Lipschitz constants of ReLU networks</a>
 <br>
 <font color=black>Avant</font> & Morgansen
 <br>
@@ -63,147 +80,154 @@ My research has involved the areas of pose estimation, deep learning, Lipschitz 
 <br>
 in preparation
 <br>
-<a href="https://codeocean.com/capsule/0345715/tree/v1" style="color:mediumorchid">[code capsule]</a>
+<a class="link" href="https://codeocean.com/capsule/0345715/tree/v1">code capsule</a>
 <br>
 <br>
-<a href="https://arxiv.org/abs/2203.09937">On the sensitivity of pose estimation neural networks: rotation parameterizations, Lipschitz constants, and provable bounds</a>
+<a class="title" href="https://arxiv.org/abs/2203.09937">On the sensitivity of pose estimation neural networks: rotation parameterizations, Lipschitz constants, and provable bounds</a>
 <br>
-<font color=black>Avant</font> & Morgansen
+Avant & Morgansen
 <br>
 <i>Automatica</i>
 <br>
 in review
 <br>
-<a href="https://arxiv.org/abs/2203.09937" style="color:mediumorchid">[preprint]</a>
-<a href="https://github.com/uwaa-ndcl/pose_network_sensitivity" style="color:mediumorchid">[code]</a>
+<a class="link" href="https://arxiv.org/abs/2203.09937">preprint</a>
+/
+<a class="link" href="https://github.com/uwaa-ndcl/pose_network_sensitivity">code</a>
 <br>
 <br>
-<a href="https://arxiv.org/abs/2104.14672">Analytical bounds on the local Lipschitz constants of ReLU networks</a>
+<a class="title" href="https://arxiv.org/abs/2104.14672">Analytical bounds on the local Lipschitz constants of ReLU networks</a>
 <br>
-<font color=black>Avant</font> & Morgansen
+Avant & Morgansen
 <br>
 <i>IEEE Transactions on Neural Networks and Learning Systems</i>
 <br>
 in review
 <br>
-<a href="https://arxiv.org/abs/2104.14672" style="color:mediumorchid">[preprint]</a>
-<a href="https://github.com/uwaa-ndcl/local_lipschitz" style="color:mediumorchid">[code]</a>
+<a class="link" href="https://arxiv.org/abs/2104.14672">preprint</a>
+/
+<a class="link" href="https://github.com/uwaa-ndcl/local_lipschitz">code</a>
 <br>
 <br>
-<a href="https://arxiv.org/abs/2008.06141">Analytical bounds on the local Lipschitz constants of affine-ReLU functions</a>
+<a class="title" href="https://arxiv.org/abs/2008.06141">Analytical bounds on the local Lipschitz constants of affine-ReLU functions</a>
 <br>
-<font color=black>Avant</font> & Morgansen
+Avant & Morgansen
 <br>
 <i>Arxiv</i> (1st evolution of the IEEE TNNLS paper)
 <br>
 2020
 <br>
-<a href="https://arxiv.org/abs/2008.06141" style="color:mediumorchid">[paper]</a>
+<a class="link" href="https://arxiv.org/abs/2008.06141">paper</a>
 <br>
 <br>
-<a href="https://ieeexplore.ieee.org/document/9147262">Rigid body dynamics estimation by unscented filtering pose estimation neural networks</a>
+<a class="title" href="https://ieeexplore.ieee.org/document/9147262">Rigid body dynamics estimation by unscented filtering pose estimation neural networks</a>
 <br>
-<font color=black>Avant</font> & Morgansen
+Avant & Morgansen
 <br>
 <i>American Control Conference (ACC)</i>
 <br>
 2020
 <br>
-<a href="https://ieeexplore.ieee.org/document/9147262" style="color:mediumorchid">[paper]</a>
-<a href="https://github.com/uwaa-ndcl/ACC_2020_Avant" style="color:mediumorchid">[code]</a>
-<a href="https://www.youtube.com/watch?v=rItCMhw4YVs" style="color:mediumorchid">[video]</a>
+<a class="link" href="https://ieeexplore.ieee.org/document/9147262">paper</a>
+/
+<a class="link" href="https://github.com/uwaa-ndcl/ACC_2020_Avant">code</a>
+/
+<a class="link" href="https://www.youtube.com/watch?v=rItCMhw4YVs">video</a>
 <br>
 <br>
-<a href="https://ieeexplore.ieee.org/document/8814791">Observability properties of object pose estimation</a>
+<a class="title" href="https://ieeexplore.ieee.org/document/8814791">Observability properties of object pose estimation</a>
 <br>
-<font color=black>Avant</font> & Morgansen
+Avant & Morgansen
 <br>
 <i>American Control Conference (ACC)</i>
 <br>
 2019
 <br>
-<a href="https://ieeexplore.ieee.org/document/8814791" style="color:mediumorchid">[paper]</a>
-<a href=https://github.com/uwaa-ndcl/ACC_2019_Avant" style="color:mediumorchid">[code]</a>
+<a class="link" href="https://ieeexplore.ieee.org/document/8814791">paper</a>
+/
+<a class="link" href=https://github.com/uwaa-ndcl/ACC_2019_Avant">code</a>
 <br>
 <br>
-<a href="https://ieeexplore.ieee.org/document/8431628">Dynamics, hover configurations, and rotor failure restabilization of a morphing quadrotor</a>
+<a class="title" href="https://ieeexplore.ieee.org/document/8431628">Dynamics, hover configurations, and rotor failure restabilization of a morphing quadrotor</a>
 <br>
-<font color=black>Avant</font> & Morgansen
+Avant & Morgansen
 <br>
 <i>American Control Conference (ACC)</i>
 <br>
 2018
 <br>
-<a href="https://ieeexplore.ieee.org/document/8431628" style="color:mediumorchid">[paper]</a>
-<a href="https://github.com/uwaa-ndcl/ACC_2018_Avant" style="color:mediumorchid">[code]</a>
+<a class="link" href="https://ieeexplore.ieee.org/document/8431628">paper</a>
+/
+<a class="link" href="https://github.com/uwaa-ndcl/ACC_2018_Avant">code</a>
 <br>
 <br>
-<a href="https://www.sciencedirect.com/science/article/abs/pii/S1359645413009257">Size effects in bimetallic nickel–gold nanowires: Insight from atomic force microscopy nanoindentation</a>
+<a class="title" href="https://www.sciencedirect.com/science/article/abs/pii/S1359645413009257">Size effects in bimetallic nickel–gold nanowires: Insight from atomic force microscopy nanoindentation</a>
 <br>
-Wood, <font color=black>Avant</font>, Kim, Lee, Burchman, Hughes, & Sansoz
+Wood, Avant, Kim, Lee, Burchman, Hughes, & Sansoz
 <br>
 <i>Acta Materialia</i>
 <br>
 2014
 <br>
-<a href="https://www.sciencedirect.com/science/article/abs/pii/S1359645413009257" style="color:mediumorchid">[paper]</a>
-<a href="https://www.uvm.edu/~fsansoz/Articles/2014-AM-Wood.pdf" style="color:mediumorchid">[pdf]</a>
+<a class="link" href="https://www.sciencedirect.com/science/article/abs/pii/S1359645413009257">paper</a>
+/
+<a class="link" href="https://www.uvm.edu/~fsansoz/Articles/2014-AM-Wood.pdf">pdf</a>
 <br>
 <br>
-<a href="https://link.springer.com/chapter/10.1007/978-1-4614-2419-2_13">Characterization of bio-inspiblack synthetic hair cell sensors</a>
+<a class="title" href="https://link.springer.com/chapter/10.1007/978-1-4614-2419-2_13">Characterization of bio-inspired synthetic hair cell sensors</a>
 <br>
-Jampole, Spurgeon, <font color=black>Avant</font>, & Farinholt
+Jampole, Spurgeon, Avant, & Farinholt
 <br>
 <i>Topics in Modal Analysis II, Volume 6</i>
 <br>
 2012
 <br>
-<a href="https://link.springer.com/chapter/10.1007/978-1-4614-2419-2_13" style="color:mediumorchid">[paper]</a>
+<a class="link" href="https://link.springer.com/chapter/10.1007/978-1-4614-2419-2_13">paper</a>
 <br>
 <br>
-<a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8343/83430A/Evaluation-of-energy-harvesting-conditioning-circuits/10.1117/12.915463.short?SSO=1">Evaluation of energy harvesting conditioning circuits</a>
+<a class="title" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8343/83430A/Evaluation-of-energy-harvesting-conditioning-circuits/10.1117/12.915463.short?SSO=1">Evaluation of energy harvesting conditioning circuits</a>
 <br>
-<font color=black>Avant</font>, Cruce, Park, & Farinholt
+Avant, Cruce, Park, & Farinholt
 <br>
 <i>Industrial and Commercial Applications of Smart Structures Technologies 2012</i>
 <br>
 2012
 <br>
-<a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8343/83430A/Evaluation-of-energy-harvesting-conditioning-circuits/10.1117/12.915463.short?SSO=1" style="color:mediumorchid">[paper]</a>
+<a class="link" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8343/83430A/Evaluation-of-energy-harvesting-conditioning-circuits/10.1117/12.915463.short?SSO=1">paper</a>
 </p>
 <!--
 --------------------------------------------------------------------------------
 -->
 <hr>
-<font size="5"> <b>other papers and write-ups (not peer-reviewed):</b>
-<font size="3">
+<h2>other papers and write-ups (not peer-reviewed):</h2>
 <p>
-<a href="https://github.com/trevoravant/i2c_lidarlite_px4flow/blob/master/writeup/i2c_writeup.pdf">Connecting multiple sensors over I2C in embedded Linux: an example using a LIDAR-Lite and PX4Flow</a>
+<a class="title" href="https://github.com/trevoravant/i2c_lidarlite_px4flow/blob/master/writeup/i2c_writeup.pdf">Connecting multiple sensors over I2C in embedded Linux: an example using a LIDAR-Lite and PX4Flow</a>
 <br>
-<a href="https://github.com/trevoravant/i2c_lidarlite_px4flow/blob/master/writeup/i2c_writeup.pdf" style="color:mediumorchid">[paper]</a>
-<a href="https://github.com/trevoravant/i2c_lidarlite_px4flow" style="color:mediumorchid">[code]</a>
+<a class="link" href="https://github.com/trevoravant/i2c_lidarlite_px4flow/blob/master/writeup/i2c_writeup.pdf">paper</a>
+/
+<a class="link" href="https://github.com/trevoravant/i2c_lidarlite_px4flow">code</a>
 </p>
 <!--
 --------------------------------------------------------------------------------
 -->
 <hr>
-<font size="5"> <b>theses:</b>
-<font size="3">
+<h2>theses:</h2>
 <p>
-<b>PhD:</b> <a href="https://digital.lib.washington.edu/researchworks/handle/1773/47906">Provable and Control-Theoretic Methods for Deep Object Pose Estimation</a>
+<b>PhD:</b> <a class="title" href="https://digital.lib.washington.edu/researchworks/handle/1773/47906">Provable and Control-Theoretic Methods for Deep Object Pose Estimation</a>
 <br>
-<a href="https://digital.lib.washington.edu/researchworks/handle/1773/47906" style="color:mediumorchid">[paper]</a>
-<a href="https://www.youtube.com/watch?v=0jgTBfsVMms" style="color:mediumorchid">[video]</a>
-<br>
-<br>
-<b>MS:</b> <a href="https://digital.lib.washington.edu/researchworks/handle/1773/35515">Multi-Vehicle Function Tracking by Moment Matching</a>
-<br>
-<a href="https://digital.lib.washington.edu/researchworks/handle/1773/35515" style="color:mediumorchid">[paper]</a>
+<a class="link" href="https://digital.lib.washington.edu/researchworks/handle/1773/47906">paper</a>
+/
+<a class="link" href="https://www.youtube.com/watch?v=0jgTBfsVMms">video</a>
 <br>
 <br>
-<b>BS:</b> <a href="https://">Atomistic Simulation Study of Indentation of Metallic Nanowires</a>
+<b>MS:</b> <a class="title" href="https://digital.lib.washington.edu/researchworks/handle/1773/35515">Multi-Vehicle Function Tracking by Moment Matching</a>
 <br>
-<a href="https://github.com/trevoravant/uvm_undergrad_thesis_2011/blob/main/thesis.pdf" style="color:mediumorchid">[paper]</a>
+<a class="link" href="https://digital.lib.washington.edu/researchworks/handle/1773/35515">paper</a>
+<br>
+<br>
+<b>BS:</b> <a class="title" href="https://">Atomistic Simulation Study of Indentation of Metallic Nanowires</a>
+<br>
+<a class="link" href="https://github.com/trevoravant/uvm_undergrad_thesis_2011/blob/main/thesis.pdf">paper</a>
 </p>
 <!--
 --------------------------------------------------------------------------------
